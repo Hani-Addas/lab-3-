@@ -21,14 +21,16 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["sales_data123.csv"]
-        }
-        }"name": "Run with CSV path",
-        "type": "python",
-        "request": "launch",
-        "program": "${file}",
-        "console": "integratedTerminal",
-        "justMyCode": true,
-        "args": ["sales_data123.csv"]
+        },
+        {
+            "name": "Run with CSV path",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["sales_data123.csv"]
+        },
     ]
 
 }
